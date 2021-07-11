@@ -39,7 +39,7 @@
     				$geNepro=$pd->getNewProduct();
     				if ($geNepro) {
     					while ($result=$geNepro->fetch_assoc()) {
-    			?>
+    			?> 
 				<div class="grid_1_of_4 images_1_of_4">
 					 <a href="Details.php"?proid=<?php echo $result['productid'];?>><img src="admin/<?php echo $result['image'];?>" alt="" /></a>
 					 <h2><?php echo $result['productname'];?> </h2>
